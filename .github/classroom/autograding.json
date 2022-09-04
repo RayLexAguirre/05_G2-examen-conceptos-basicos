@@ -1,0 +1,54 @@
+{
+  "tests": [
+    {
+      "name": "account.constructor",
+      "setup": "npm install",
+      "run": "npm run test account.test.js",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 20
+    },
+    {
+      "name": "account.deposit()",
+      "setup": "",
+      "run": "npm run test account.deposit.test.js",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 20
+    },
+    {
+      "name": "account.withdraw()",
+      "setup": "",
+      "run": "npm run test account.withdraw.test.js",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 20
+    },
+    {
+      "name": "account.getBalance()",
+      "setup": "",
+      "run": "npm run test account.getBalance.test.js",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 20
+    },
+    {
+      "name": "account.updateNip()",
+      "setup": "",
+      "run": "npm run test account.updateNip.test.js",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 20
+    }
+  ]
+}
